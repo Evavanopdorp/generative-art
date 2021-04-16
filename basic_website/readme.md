@@ -3,10 +3,10 @@
 # Procesverslag
 
 ## Over
-* **Naam:** `voornaam + achternaam`
-* **Klas:** `vid-1/vid-2`
+* **Naam:** `Eva van Opdorp`
+* **Klas:** `Vid-1a`
 * **Minor:** `Visual Interface Design`
-* **Favoriete dier:** `Zeeotters zijn te gek!`
+* **Favoriete dier:** `Alpaca's zijn te gek!`
 * **Startniveau:** `blauw/rood/zwart`
 
 ## Concept
