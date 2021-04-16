@@ -22,7 +22,8 @@
 
 ## Voortang
 
-`Schrijf hier een klein logboekje met je voortgang per week.`
+`15 april: 
+Omdat ik nog geen ervaring heb met js, ben ik begonnen met het maken van een random geluk generator. Dit was puur om het programma een beetje te leren kennen en te kijken wat ik een beetje voor elkaar kan krijgen.`
 
 ### Week-1
 `Wat heb je gedaan? Wat ging goed? Wat kon beter?`
