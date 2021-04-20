@@ -16,7 +16,7 @@ function draw() {
   stroke('#fae');
   strokeWeight(4);
   rotateY(millis() / 1000);
-  ellipsoid(200, 200, 200, detailX.value(), 8);
+  ellipsoid(200, 200, 200  , detailX.value(), 8);
 }
 
 function windowResized() {
