@@ -29,6 +29,13 @@ function light(x, y) {
 }
 
 function draw() {
+  background(0);
+noStroke();
+for (var i = 0; i < 30; i++) {
+fill(255, 255, 255, random(755));
+console.log(random(windowWidth));
+ellipse(random(windowWidth) * 5, random(windowHeight), random(10));
+}
   if (keyIsDown(LEFT_ARROW)) {
       key = 'left';
   } else if(keyIsDown(RIGHT_ARROW)) {
@@ -44,26 +51,29 @@ function draw() {
     useLights = !useLights;
   }
   stroke(0);
-  background(220);
   const c = color(0, 131, 1);
   fill(c);
   rotateY(150);
-
+  // code voor maken van onderkant van boom
   translate(0, 300);
   box(190, 10, 190);
+  // code voor generen van boom segment
   for(i = 1; i < r + 1; i++) {
     translate(0, -20);
     box(190 - (10 * i), 10, 190 - (10 * i));
     translate(0, -20);
     box(150 - (10 * i), 30, 150 - (10 * i));
   }
+  // code voor de bovenkant van de boom
   translate(0, -20);
   box(190 - (10 * r * 2), 10, 190 - (10 * r * 2));
   translate(0, -10);
   box(150 - (10 * r * 2), 10, 150 - (10 * r * 2));
   translate(0, -10);
   box(130 - (10 * r * 2), 10, 130 - (10 * r * 2));
+  // checken of lampen aanstaan
   if(useLights === true) {
+    // laat een bol zien voor elke punt waar een lamp moet
     lights.forEach((currentLight) => {
       light(currentLight.x, currentLight.y);
     });
